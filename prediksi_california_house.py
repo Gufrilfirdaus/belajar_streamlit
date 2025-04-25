@@ -8,7 +8,6 @@ from sklearn.datasets import fetch_california_housing
 from sklearn.ensemble import RandomForestRegressor
 
 def prediksi_california_house():
-    # Load California Housing dataset
     housing = fetch_california_housing(as_frame=True)
     X = housing.data
     Y = housing.target

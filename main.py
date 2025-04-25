@@ -27,7 +27,6 @@ elif page == "Prediksi Churn":
     st.title("Prediksi Churn Pelanggan")
     st.write("Masukkan informasi pelanggan untuk memprediksi apakah pelanggan tersebut akan churn atau tidak.")
 
-    # Input pengguna, harus sesuai urutan dan nama kolom saat training
     user_input = {
         'CreditScore': st.number_input('Credit Score', min_value=300, max_value=850, value=600),
         'Age': st.number_input('Age', min_value=18, max_value=100, value=30),
@@ -39,7 +38,7 @@ elif page == "Prediksi Churn":
         'EstimatedSalary': st.number_input('Estimated Salary', min_value=1000, max_value=200000, value=50000)
     }
 
-    # Menjalankan prediksi
+    
     if st.button('Prediksi'):
         result = predict_churn(user_input)
 
