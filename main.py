@@ -7,7 +7,7 @@ st.sidebar.title("My Portfolio \n👨🏻‍💻 Muhammad Gufril Firdaus")
 
 page = st.sidebar.selectbox(
     "Main Menu",
-    ["Tentang Saya", "Data Science Project", "Prediksi Churn", "Kontak"], 
+    ["Tentang Saya", "Data Science Project", "Kontak", "Prediksi Churn", "Prediksi Boston Housing"], 
     index=0,
 )
 
@@ -48,3 +48,7 @@ elif page == "Prediksi Churn":
             st.success("✅ Pelanggan diprediksi akan *churn*.")
         else:
             st.success("✅ Pelanggan diprediksi **tidak** akan *churn*.")
+            
+elif page == "Prediksi Boston Housing":
+    import prediksi_california_house
+    prediksi_california_house.prediksi_california_house()

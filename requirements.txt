@@ -4,3 +4,4 @@ scikit-learn==1.6.1
 streamlit==1.44.1
 Pillow==10.3.0
 python-dateutil==2.9.0
+shap
