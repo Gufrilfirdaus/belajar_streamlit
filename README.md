@@ -1,21 +1,35 @@
-# 📊 Dashboard Kit
+# Portfolio Belajar Streamlit 🚀
 
-This Streamlit dashboard app allows you to analyze a hypothetical YouTube channel data and display various metrics and visualizations, which is helpful for content creators in understanding their channel's performance over time.
+Repository ini berisi aplikasi Streamlit sederhana untuk visualisasi data sebagai bagian dari portofolio pembelajaran data science.
 
-The app's UI is built using pure Streamlit.
+## Fitur Utama 📊
 
-<img src="/images/app-screenshot.png">
+- Visualisasi data interaktif menggunakan Streamlit
+- Menampilkan grafik menggunakan Matplotlib dan Seaborn
+- Analisis dataset sederhana
+- Demonstrasi integrasi Pandas dengan Streamlit
 
-## Demo App
+## Prasyarat ⚙️
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dashboard-kit.streamlit.app/)
+- Python 3.8+
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-## GitHub Codespaces
+## Instalasi 🔧
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+1. Clone repository ini:
+```bash
+git clone https://github.com/Gufrilfirdaus/belajar_streamlit.git
+cd belajar_streamlit
 
-## Features
+Kontak 📩
+Email: gufrilfirdaus14@gmail.com
+LinkedIn: Gufril Firdaus
 
+<<<<<<< HEAD
 - Interactive date range selection
 - Multiple time frame views (Daily, Weekly, Monthly, Quarterly)
 - Key metrics:
@@ -36,3 +50,5 @@ The app's UI is built using pure Streamlit.
 
 
 
+=======
+>>>>>>> 1abb822b40959ea63d6d966dbb8df72599ffa463
