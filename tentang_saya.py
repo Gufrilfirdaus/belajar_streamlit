@@ -7,7 +7,6 @@ def img_to_base64(img_path):
         return base64.b64encode(img_file.read()).decode()
 
 def tampilkan_tentang_saya():
-    # CSS dengan base64 dan !important
     st.markdown(f"""
     <style>
         .circle-image {{
